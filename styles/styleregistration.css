@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@media screen and (max-device-width:640px), screen and (max-width:640px) and (max-height: 640px){
+p.login{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2D3748;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+
+input.log_in{
+    margin-left: 10%;
+    width: 70%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 0;
+    border-bottom: 1.5px solid lightgrey;
+    outline:none;
+
+}
+.password-input{
+    width: 70%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+a{
+    text-decoration: none;
+    color: #007a79;
+}
+input.password-input{
+    margin-left: 10%;
+    width: 70%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 0;
+    border-bottom: 1.5px solid lightgrey;
+    outline:none;
+        
+}
+
+p.login1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #4A5568;
+    margin-top: 4%;
+    margin-left: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+p.login2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #4A5568;
+    margin-top: 4%;
+    margin-left: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p.login3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A5568;
+    margin-top:4%;
+    margin-left: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.button_next{
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 70%;
+    background-color: #007a79;
+    height: 10%;
+    min-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 0;
+    color: white;
+    
+}
+
+
+.button_login{
+    width: 70%;
+    text-align: center;
+    margin-top:  2%;
+    margin-left: 10%;
+    height: 10%;
+    min-height: 50px;
+	max-height: 100px;
+    background-color: inherit;
+     border-width: 0;
+    border-radius: 5px;
+    border: 0px solid black;
+    color: #007a79;
+
+}
+
+
+
+
+}
