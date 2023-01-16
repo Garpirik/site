@@ -10,37 +10,37 @@
 <body>
     <header></header>
     <main>
-       <div class="registration">
-        <p class="login"> <strong>Регистрация </strong>
+        <form id="Form_register" >
+        <div class="div_registration">
+        <p class="registration"> <strong>Регистрация </strong>
         </p> 
-        <p class="login1">Логин</p>
+        <p class="login">Логин</p>
         <label>
-                <form action="">
-            	<input type="password" class="log_in" placeholder="Введите ваш логин" name="login">
-            </form>
+            	<input type="text" class="log_in" placeholder="Введите ваш логин" name="login"   required>
         </label>    
-        <p class="login2">Пароль</p>
+        <p class="login_password">Пароль</p>
         <label > 
-            <form action="">
-            <input type="password" class="password-input" placeholder="Введите пароль" name="password" id="password_input">
-        </form>
+            <input type="password" class="password-input" placeholder="Введите пароль" name="password" id="password_input"   required>
     </label>   
-        <p class="login3">Подтвердить пароль</p>
+        <p class="login_repeat">Подтвердить пароль</p>
             <label>  
                 <form action="">
-                <input type="password" class="password-input" placeholder="Повторно введите пароль" name="password" id="password_input1">
+                <input type="password" class="password-input" placeholder="Повторно введите пароль" name="confirm_password" id="password_input1" required>
             </form>
         </label>   
-        <div class="div_login">
-        <button class= "button_next">Продолжить</button>
+        <div class="div_next">
+        <button class= "button_next" type="submit"> Продолжить
+            </button>
     </div >
         <div class="div_login">   
         <button class= "button_login"><a href="login.html">Войти</a> </button>
     </div> 
      
     </div>
-    </main>
+    </form>    
+</main>
     <footer></footer>
+
     <script>
 
 
