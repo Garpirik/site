@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @media screen and (max-device-width:640px), screen and (max-width:640px) and (max-height: 640px){
-p.login{
+p.registration{
+    color: #2D3748;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #2D3748;
     margin-left: 10%;
     margin-top: 4%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -40,7 +40,7 @@ input.password-input{
         
 }
 
-p.login1{
+p.login{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
@@ -53,7 +53,7 @@ p.login1{
     
 }
 
-p.login2{
+p.login_password{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
@@ -64,7 +64,7 @@ p.login2{
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: -0.1%;
 }
-p.login3{
+p.login_repeat{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
