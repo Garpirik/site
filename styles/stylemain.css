@@ -32,5 +32,8 @@ img.first_img{
     margin-right: auto;
 }
 
-
+.taskbar_under{
+    display: flex;
+    justify-content: space-between;
+}
 }
